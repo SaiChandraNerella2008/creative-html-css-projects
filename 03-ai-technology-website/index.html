@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Synthetix AI - Autonomous intelligence models, multimodal computer vision, and neural compute infrastructure.">
+    <title>Synthetix AI | Frontier Autonomous Intelligence & Neural Compute</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Ambient Glow Orbs -->
+    <div class="ambient-glow orb-1"></div>
+    <div class="ambient-glow orb-2"></div>
+
+    <!-- Header Navigation -->
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#" class="logo">
+                <div class="logo-icon"><i class="fas fa-microchip"></i></div>
+                <span class="logo-text">SYNTHETIX<span>.AI</span></span>
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="#products" class="nav-item">Products</a></li>
+                <li><a href="#features" class="nav-item">Features</a></li>
+                <li><a href="#applications" class="nav-item">Applications</a></li>
+                <li><a href="#technology" class="nav-item">Technology</a></li>
+                <li><a href="#team" class="nav-item">Team</a></li>
+                <li><a href="#contact" class="nav-item">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <a href="#contact" class="btn btn-outline">Developer Docs</a>
+                <a href="#contact" class="btn btn-gradient">Request API Key</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="container hero-content">
+                <div class="hero-pill">
+                    <span class="pill-pulse"></span>
+                    <span>Announcing Synthetix OmniLLM 4.0 • Now in Public Beta</span>
+                    <i class="fas fa-chevron-right"></i>
+                </div>
+
+                <h1 class="hero-title">
+                    Frontier Intelligence for <br>
+                    <span class="neon-gradient">Autonomous Systems</span>
+                </h1>
+
+                <p class="hero-description">
+                    Empowering enterprises and developers with multimodal foundation models, sub-50ms inference engines, and decentralized neural compute built for high-stakes production.
+                </p>
+
+                <div class="hero-cta-group">
+                    <a href="#products" class="btn btn-gradient btn-lg">
+                        <i class="fas fa-cube"></i> Explore AI Models
+                    </a>
+                    <a href="#technology" class="btn btn-outline btn-lg">
+                        <i class="fas fa-terminal"></i> Read Tech Specs
+                    </a>
+                </div>
+
+                <!-- Floating Terminal / Code Preview -->
+                <div class="hero-terminal">
+                    <div class="terminal-bar">
+                        <div class="terminal-dots">
+                            <span class="dot dot-red"></span>
+                            <span class="dot dot-yellow"></span>
+                            <span class="dot dot-green"></span>
+                        </div>
+                        <span class="terminal-title">synthetix-inference-stream.py</span>
+                        <span class="terminal-badge">Python 3.12 • Latency: 28ms</span>
+                    </div>
+                    <pre class="terminal-code"><code><span class="c-keyword">import</span> synthetix <span class="c-keyword">as</span> ai
+
+client = ai.Client(api_key=<span class="c-string">"sk_live_synthetix_edge"</span>)
+response = client.models.generate(
+    model=<span class="c-string">"omni-4-reasoning"</span>,
+    prompt=<span class="c-string">"Optimize autonomous robotic path planning in unstructured terrain"</span>,
+    stream=<span class="c-bool">True</span>,
+    temperature=<span class="c-number">0.2</span>
+)
+<span class="c-keyword">for</span> chunk <span class="c-keyword">in</span> response.stream_tokens():
+    print(chunk.text, end=<span class="c-string">""</span>, flush=<span class="c-bool">True</span>)</code></pre>
+                </div>
+
+                <!-- Hero Metrics Stats -->
+                <div class="hero-stats">
+                    <div class="stat-box">
+                        <div class="stat-number">99.8%</div>
+                        <div class="stat-label">Benchmark Accuracy</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-number">3.2x</div>
+                        <div class="stat-label">Faster GPU Inference</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-number">100M+</div>
+                        <div class="stat-label">Daily API Invocations</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-number">99.99%</div>
+                        <div class="stat-label">Enterprise SLA Uptime</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- AI Products Section -->
+        <section id="products" class="products-section section-padding">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tag">Flagship Models</span>
+                    <h2 class="section-title">Synthetix AI Product Ecosystem</h2>
+                    <p class="section-subtitle">Scalable foundation models tailored for reasoning, multimodal computer vision, and real-time voice synthesis.</p>
+                </div>
+
+                <div class="products-grid">
+                    <!-- Product 1 -->
+                    <div class="product-card featured">
+                        <div class="product-badge">Most Popular</div>
+                        <div class="product-icon-wrap"><i class="fas fa-brain"></i></div>
+                        <h3>OmniLLM 4.0</h3>
+                        <p class="product-subtitle">Autonomous Reasoning & Code Orchestration</p>
+                        <p class="product-desc">
+                            Next-generation dense neural reasoning model capable of multi-step logical deduction, complex mathematical theorem proving, and production-grade code synthesis.
+                        </p>
+                        <ul class="product-specs">
+                            <li><i class="fas fa-check"></i> 128k Token Context Window</li>
+                            <li><i class="fas fa-check"></i> Native Tool Use & Function Calling</li>
+                            <li><i class="fas fa-check"></i> Low-Latency Quantized Inference</li>
+                        </ul>
+                        <div class="product-footer">
+                            <span class="model-speed"><i class="fas fa-tachometer-alt"></i> 140 tokens/sec</span>
+                            <a href="#contact" class="btn btn-outline btn-sm">Deploy Model</a>
+                        </div>
+                    </div>
+
+                    <!-- Product 2 -->
+                    <div class="product-card">
+                        <div class="product-icon-wrap"><i class="fas fa-eye"></i></div>
+                        <h3>VisionNova Neural</h3>
+                        <p class="product-subtitle">Multimodal Spatial & Vision Intelligence</p>
+                        <p class="product-desc">
+                            Ultra-dense video understanding and 3D object detection engine that tracks dynamic objects in 4K resolution streams in under 30ms latency.
+                        </p>
+                        <ul class="product-specs">
+                            <li><i class="fas fa-check"></i> 60fps Real-Time Video Segmentation</li>
+                            <li><i class="fas fa-check"></i> Zero-Shot OCR & Blueprint Parsing</li>
+                            <li><i class="fas fa-check"></i> Edge Embedded Deployment (TensorRT)</li>
+                        </ul>
+                        <div class="product-footer">
+                            <span class="model-speed"><i class="fas fa-tachometer-alt"></i> 60 FPS 4K</span>
+                            <a href="#contact" class="btn btn-outline btn-sm">Deploy Model</a>
+                        </div>
+                    </div>
+
+                    <!-- Product 3 -->
+                    <div class="product-card">
+                        <div class="product-icon-wrap"><i class="fas fa-waveform"></i></div>
+                        <h3>VoiceFlow Ultra</h3>
+                        <p class="product-subtitle">Sub-50ms Conversational Voice AI</p>
+                        <p class="product-desc">
+                            Human-fidelity neural speech synthesis and emotion-aware transcription engine engineered for real-time natural duplex voice conversations.
+                        </p>
+                        <ul class="product-specs">
+                            <li><i class="fas fa-check"></i> 40ms End-to-End Voice Latency</li>
+                            <li><i class="fas fa-check"></i> 48 Supported Global Languages</li>
+                            <li><i class="fas fa-check"></i> Expressive Pitch & Dynamic Breath</li>
+                        </ul>
+                        <div class="product-footer">
+                            <span class="model-speed"><i class="fas fa-tachometer-alt"></i> 40ms Latency</span>
+                            <a href="#contact" class="btn btn-outline btn-sm">Deploy Model</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="features-section section-padding bg-surface">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tag">Enterprise Scale</span>
+                    <h2 class="section-title">Engineered for Extreme Performance</h2>
+                    <p class="section-subtitle">A zero-compromise developer platform built for high-throughput inference.</p>
+                </div>
+
+                <div class="features-grid">
+                    <div class="feature-item">
+                        <div class="feature-icon"><i class="fas fa-network-wired"></i></div>
+                        <h4>Decentralized GPU Cloud</h4>
+                        <p>Global multi-region clusters running H100 and B200 Tensor Core GPUs with instant failover routing.</p>
+                    </div>
+
+                    <div class="feature-item">
+                        <div class="feature-icon"><i class="fas fa-shield-alt"></i></div>
+                        <h4>Zero-Knowledge Privacy</h4>
+                        <p>Hardware-enforced confidential computing enclaves guarantee your training prompts and weights remain private.</p>
+                    </div>
+
+                    <div class="feature-item">
+                        <div class="feature-icon"><i class="fas fa-stream"></i></div>
+                        <h4>Real-time Streaming API</h4>
+                        <p>Ultra-low overhead WebSocket and gRPC streaming pipelines designed for sub-second agent responses.</p>
+                    </div>
+
+                    <div class="feature-item">
+                        <div class="feature-icon"><i class="fas fa-sliders-h"></i></div>
+                        <h4>Custom Fine-Tuning</h4>
+                        <p>Inject your proprietary enterprise domain data using LoRA and Direct Preference Optimization (DPO).</p>
+                    </div>
+
+                    <div class="feature-item">
+                        <div class="feature-icon"><i class="fas fa-microchip"></i></div>
+                        <h4>Edge SDK Optimization</h4>
+                        <p>Run quantized 4-bit and 8-bit model instances directly on mobile chips, drones, and edge robotics.</p>
+                    </div>
+
+                    <div class="feature-item">
+                        <div class="feature-icon"><i class="fas fa-medal"></i></div>
+                        <h4>99.99% Enterprise SLA</h4>
+                        <p>Dedicated enterprise clusters with contractual availability guarantees, 24/7 dedicated engineering support.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Applications Section -->
+        <section id="applications" class="applications-section section-padding">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tag">Industry Impact</span>
+                    <h2 class="section-title">Transforming Real-World Industries</h2>
+                    <p class="section-subtitle">How world-class enterprises integrate Synthetix AI into mission-critical workflows.</p>
+                </div>
+
+                <div class="applications-grid">
+                    <div class="app-card">
+                        <div class="app-image-wrap">
+                            <img src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=600&q=80" alt="Autonomous Robotics">
+                        </div>
+                        <div class="app-content">
+                            <span class="app-industry">Robotics & Automation</span>
+                            <h3>Autonomous Industrial Robotics</h3>
+                            <p>Enabling robotic manipulators and warehouse rovers to navigate dynamic obstacles and perform precision assembly in real time.</p>
+                            <span class="app-stat"><i class="fas fa-arrow-up"></i> 400% Assembly Throughput</span>
+                        </div>
+                    </div>
+
+                    <div class="app-card">
+                        <div class="app-image-wrap">
+                            <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=600&q=80" alt="Healthcare AI">
+                        </div>
+                        <div class="app-content">
+                            <span class="app-industry">Biomedical & Healthcare</span>
+                            <h3>Medical Diagnostics & Imaging</h3>
+                            <p>Assisting radiologists with rapid segmentation of clinical CT scans, MRI imaging, and genomic mutation pattern detection.</p>
+                            <span class="app-stat"><i class="fas fa-arrow-up"></i> 99.4% Diagnostic Sensitivity</span>
+                        </div>
+                    </div>
+
+                    <div class="app-card">
+                        <div class="app-image-wrap">
+                            <img src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=600&q=80" alt="Financial Tech">
+                        </div>
+                        <div class="app-content">
+                            <span class="app-industry">Quantitative Finance</span>
+                            <h3>Algorithmic Risk & Trading</h3>
+                            <p>Parsing millions of financial filings, market sentiment feeds, and macroeconomic news to model portfolio risk vectors in real time.</p>
+                            <span class="app-stat"><i class="fas fa-arrow-up"></i> 5ms Execution Velocity</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technology & Architecture Section -->
+        <section id="technology" class="technology-section section-padding bg-surface">
+            <div class="container">
+                <div class="tech-grid">
+                    <div class="tech-info">
+                        <span class="section-tag">Neural Architecture</span>
+                        <h2 class="section-title">The Synthetix Sparse Mixture-of-Experts (SMoE)</h2>
+                        <p class="tech-desc">
+                            Our proprietary MoE routing activates only 18B parameters per token from an overall 140B model capability pool, slashing computational costs while boosting inference throughput.
+                        </p>
+
+                        <div class="tech-points">
+                            <div class="point-item">
+                                <div class="point-num">01</div>
+                                <div>
+                                    <h4>Dynamic Token Routing</h4>
+                                    <p>Learned neural gates dynamically assign semantic tokens to specialized expert sub-networks.</p>
+                                </div>
+                            </div>
+                            <div class="point-item">
+                                <div class="point-num">02</div>
+                                <div>
+                                    <h4>FlashAttention-3 Kernel Acceleration</h4>
+                                    <p>Custom FP8 TensorRT matrix multipliers achieve 85% hardware saturation on modern GPU clusters.</p>
+                                </div>
+                            </div>
+                            <div class="point-item">
+                                <div class="point-num">03</div>
+                                <div>
+                                    <h4>Differential Privacy Enclaves</h4>
+                                    <p>Hardware-isolated trust boundaries ensure multi-tenant client isolation with cryptographic attestation.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tech-visual">
+                        <div class="architecture-diagram">
+                            <div class="diagram-layer">
+                                <span class="layer-title">Input Token Stream</span>
+                                <div class="layer-boxes">
+                                    <span class="box">Prompt</span>
+                                    <span class="box">Vision Sensor</span>
+                                    <span class="box">Audio Chunk</span>
+                                </div>
+                            </div>
+                            <div class="diagram-arrow"><i class="fas fa-arrow-down"></i> Multi-Modal Tokenizer</div>
+                            <div class="diagram-layer highlight">
+                                <span class="layer-title">Sparse MoE Router (Top-2 Expert Selection)</span>
+                                <div class="layer-boxes">
+                                    <span class="box active">Expert: Code</span>
+                                    <span class="box active">Expert: Logic</span>
+                                    <span class="box">Expert: Vision</span>
+                                    <span class="box">Expert: Math</span>
+                                </div>
+                            </div>
+                            <div class="diagram-arrow"><i class="fas fa-arrow-down"></i> Distributed FP8 Matrix Multipliers</div>
+                            <div class="diagram-layer">
+                                <span class="layer-title">Real-Time Streaming Output</span>
+                                <div class="layer-boxes">
+                                    <span class="box">Sub-50ms Response Stream & Function Call Execution</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Team Members Section -->
+        <section id="team" class="team-section section-padding">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tag">Scientific Leadership</span>
+                    <h2 class="section-title">Meet the Research Pioneers</h2>
+                    <p class="section-subtitle">World-renowned computer scientists and machine learning engineers leading our frontier research.</p>
+                </div>
+
+                <div class="team-grid">
+                    <!-- Member 1 -->
+                    <div class="team-card">
+                        <div class="member-photo">
+                            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80" alt="Dr. Elena Vance">
+                        </div>
+                        <h3>Dr. Elena Vance</h3>
+                        <p class="member-role">CEO & Chief Scientist</p>
+                        <p class="member-bio">Former Stanford AI Lab Fellow. 15+ years of research in foundational deep learning and large-scale language models.</p>
+                        <div class="member-socials">
+                            <a href="#"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Member 2 -->
+                    <div class="team-card">
+                        <div class="member-photo">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80" alt="Marcus Thorne">
+                        </div>
+                        <h3>Marcus Thorne</h3>
+                        <p class="member-role">VP of Neural Architecture</p>
+                        <p class="member-bio">Ex-Google DeepMind infrastructure engineer specializing in distributed GPU clustering and SMoE scaling laws.</p>
+                        <div class="member-socials">
+                            <a href="#"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Member 3 -->
+                    <div class="team-card">
+                        <div class="member-photo">
+                            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=400&q=80" alt="Dr. Ananya Rao">
+                        </div>
+                        <h3>Dr. Ananya Rao</h3>
+                        <p class="member-role">Head of AI Safety & Alignment</p>
+                        <p class="member-bio">Pioneer in mathematical mechanistic interpretability, RLHF steering, and ethical governance protocols for foundation models.</p>
+                        <div class="member-socials">
+                            <a href="#"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section section-padding bg-surface">
+            <div class="container">
+                <div class="contact-card">
+                    <div class="contact-header text-center">
+                        <span class="section-tag">Get Started</span>
+                        <h2 class="section-title">Request Enterprise API Sandbox Access</h2>
+                        <p class="section-subtitle">Deploy our models directly into your environment or request dedicated enterprise cluster pricing.</p>
+                    </div>
+
+                    <form class="api-request-form" onsubmit="event.preventDefault(); alert('Request submitted! An AI infrastructure architect will reach out to you within 24 hours.');">
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label for="c-name">Full Name</label>
+                                <input type="text" id="c-name" placeholder="Dr. Jane Doe" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="c-email">Work Email</label>
+                                <input type="email" id="c-email" placeholder="jane@enterprise.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="c-company">Company / Organization</label>
+                                <input type="text" id="c-company" placeholder="NeuralTech Systems" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="c-usecase">Target AI Product</label>
+                                <select id="c-usecase">
+                                    <option value="omni">Synthetix OmniLLM 4.0</option>
+                                    <option value="vision">VisionNova Neural 3D</option>
+                                    <option value="voice">VoiceFlow Ultra (Voice AI)</option>
+                                    <option value="custom">Custom Enterprise Cluster</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group full-width">
+                            <label for="c-details">Project Requirements & Expected Volume</label>
+                            <textarea id="c-details" rows="4" placeholder="Describe your deployment scale, expected latency requirements, and monthly API volume..." required></textarea>
+                        </div>
+                        <div class="form-submit text-center">
+                            <button type="submit" class="btn btn-gradient btn-lg">
+                                <i class="fas fa-key"></i> Generate Sandbox Credentials
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-layout">
+            <div class="footer-brand">
+                <a href="#" class="logo">
+                    <div class="logo-icon"><i class="fas fa-microchip"></i></div>
+                    <span class="logo-text">SYNTHETIX<span>.AI</span></span>
+                </a>
+                <p>Architecting autonomous neural intelligence models for the next century of scientific discovery and industrial progress.</p>
+                <div class="status-indicator">
+                    <span class="status-dot-green"></span>
+                    <span>All 24 Global GPU Clusters Operational</span>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h4>Models</h4>
+                <ul>
+                    <li><a href="#products">OmniLLM 4.0</a></li>
+                    <li><a href="#products">VisionNova 3D</a></li>
+                    <li><a href="#products">VoiceFlow Ultra</a></li>
+                    <li><a href="#technology">SMoE Benchmarks</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Developers</h4>
+                <ul>
+                    <li><a href="#technology">Documentation</a></li>
+                    <li><a href="#technology">Python & Node SDKs</a></li>
+                    <li><a href="#contact">API Status</a></li>
+                    <li><a href="#contact">Pricing Calculator</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="#team">Research Team</a></li>
+                    <li><a href="#applications">Case Studies</a></li>
+                    <li><a href="#features">Security & Privacy</a></li>
+                    <li><a href="#contact">Careers (Hiring!)</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom container">
+            <p>&copy; 2026 Synthetix AI Inc. All rights reserved. SOC-2 Type II & ISO 27001 Certified.</p>
+        </div>
+    </footer>
+</body>
+</html>
